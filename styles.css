@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bdb1b1;
+}
+
+header {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.hero-section .logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-section .logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+}
+
+.category-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.category-section h2 {
+    margin-bottom: 1rem;
+}
+
+/* Specific header colors */
+.meals-header {
+    color: red;
+}
+
+.desserts-header {
+    color: brown;
+}
+
+.salads-header {
+    color: green;
+}
+
+.food-item {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.food-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.about-section,
+.contact-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 0.5rem 0;
+}
+
+form input,
+form textarea {
+    width: 300px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #4CAF50; /* Green border */
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
